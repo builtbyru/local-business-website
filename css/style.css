@@ -77,7 +77,7 @@ nav {
       rgba(0, 0, 0, 0.4)
     ),
     url("https://images.unsplash.com/photo-1521335629791-ce4aec67ddaf");
-  background-color: cover;
+  background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
