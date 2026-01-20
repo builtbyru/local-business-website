@@ -13,10 +13,14 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--bg-color);
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -73,8 +77,8 @@ nav {
 #hero {
   height: 80vh;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+    rgba(194, 155, 108, 0.35),
+    rgba(17, 17, 17, 0.55)
     ),
     url("https://images.unsplash.com/photo-1521335629791-ce4aec67ddaf");
   background-size: cover;
@@ -83,7 +87,7 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: var(--primary-color);
 }
 
 .hero-content h2 {
@@ -100,13 +104,15 @@ nav {
   padding: 0.75rem 2rem;
   background-color: var(--accent-color);
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 30px;
+  letter-spacing: 0.5px;
   transition: background-color 0.3s ease;
 }
 
 .btn:hover {
   background-color: #a87f54;
+  transform: translateY(-2px);
 }
 
 /* ABOUT SECTION */
