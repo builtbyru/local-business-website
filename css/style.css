@@ -77,17 +77,18 @@ nav {
 #hero {
   height: 80vh;
   background: linear-gradient(
-    rgba(194, 155, 108, 0.35),
-    rgba(17, 17, 17, 0.55)
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
     ),
-    url("https://images.unsplash.com/photo-1521335629791-ce4aec67ddaf");
+    url("../images/hero.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: var(--primary-color);
+  color: white;
 }
 
 .hero-content h2 {
