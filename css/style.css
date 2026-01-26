@@ -319,15 +319,34 @@ footer .copyright {
   opacity: 0.7;
 }
 
-/* RESPONSIVE */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
+  .menu-toggle{
+    display: block;
+  }
+
   nav {
     flex-direction: column;
     gap: 1rem;
   }
 
   .nav-links {
+    display: none;
+    flex-direction: column;
     gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .nav-links.open {
+    display: flex;
   }
 
   .hero-content h2 {
@@ -341,4 +360,8 @@ footer .copyright {
   .collections-cards {
     grid-template-columns: 1fr;
   }
+}
+
+hmtl {
+  scroll-behavior: smooth;
 }
